@@ -27,7 +27,7 @@ i=gets.chomp.to_i
 # ---文字列受け取り---
 s=gets.chomp.to_s
 
-# ---文字列のchars受け取り---
+# ---文字の配列chars受け取り---
 s=gets.chomp.chars
 
 # ---複数の数値受け取り---
@@ -36,6 +36,9 @@ R,C=gets.chomp.split.map(&:to_i)
 # ---数値の２次元配列受け取り---
 Q=gets.chomp.to_i
 map=Q.times.map { gets.chomp.split.map(&:to_i) }
+
+# ---改行された数値を配列で受け取る---
+M=N.times.map { gets.chomp.to_i }
 
 # ---数値の配列受け取り---
 i=gets.chomp.split.map(&:to_i)
