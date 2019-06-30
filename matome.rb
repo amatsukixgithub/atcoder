@@ -37,4 +37,5 @@ R,C=gets.chomp.split.map(&:to_i)
 Q=gets.chomp.to_i
 map=Q.times.map { gets.chomp.split.map(&:to_i) }
 
+# ---数値の配列受け取り---
 i=gets.chomp.split.map(&:to_i)
