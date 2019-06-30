@@ -17,3 +17,24 @@ end
 # ---２次元配列の取得---
 H,W=gets.chomp.split.map(&:to_i)
 map=H.times.map { gets.chomp.chars }
+
+# ---2次元配列の作成---
+reached=Array.new(H){Array.new(W,0)}
+
+# ---整数受け取り---
+i=gets.chomp.to_i
+
+# ---文字列受け取り---
+s=gets.chomp.to_s
+
+# ---文字列のchars受け取り---
+s=gets.chomp.chars
+
+# ---複数の数値受け取り---
+R,C=gets.chomp.split.map(&:to_i)
+
+# ---数値の２次元配列受け取り---
+Q=gets.chomp.to_i
+map=Q.times.map { gets.chomp.split.map(&:to_i) }
+
+i=gets.chomp.split.map(&:to_i)
