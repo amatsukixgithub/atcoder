@@ -2,11 +2,15 @@
 using namespace std;
 
 int main(){
-  int x;
+  int a,b;
+  cin >> a >> b;
 
-  cin >> x;
-
-  cout << x*x*x << endl;
-
+  if(a > b){
+    cout << "a > b" << endl;
+  }else if(a < b){
+    cout << "a < b" << endl;
+  }else if(a == b){
+    cout << "a == b" << endl;
+  }
   return 0;
 }
