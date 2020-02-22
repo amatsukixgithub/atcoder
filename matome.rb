@@ -65,3 +65,17 @@ m=a.max{ |x, y| x[1] <=> y[1] }
 
 # ---小文字に変換して並び替え---
 B.sort_by(&:downcase)
+
+
+# xCy
+def c(x,y)
+  a=1
+  y.times do |i|
+    a*=x-i
+  end
+  b=1
+  y.times do |j|
+    b*=j+1
+  end
+  a/b
+end
