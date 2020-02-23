@@ -24,3 +24,13 @@ vector<int> vec(N);
 for (int i = 0; i < N; i++) {
   cin >> vec.at(i);
 }
+
+// --- 3が含まれている数 ---
+bool include3(int x){
+  for(int i=x;i;i/=10){
+    if(i % 10 == 3){
+      return true;
+    }
+  }
+  return false;
+}
