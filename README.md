@@ -1,9 +1,11 @@
-# AtCoder Ruby解答例
+# AtCoder Ruby解答
 
-AtCoderのコンテスト別にAC解答例をまとめたリポジトリです。
+AtCoderのコンテスト別にAC解答例をまとめたリポジトリ。
 
-感想や解き方などのコメントも記述されていますがご了承ください。
+AtCoderユーザーページ [amatsukix](https://atcoder.jp/users/amatsukix)
 
-実力不足でC以上の問題は解けていないことが多いです。
+## [AOJディレクトリ](https://github.com/amatsukixgithub/atcoder/tree/master/AOJ)
 
-AtCoderユーザーページ[(amatsukix)](https://atcoder.jp/users/amatsukix)
+C++で勉強中...
+
+AOJユーザーページ [amatsukix](https://onlinejudge.u-aizu.ac.jp/status/users/amatsukix)
