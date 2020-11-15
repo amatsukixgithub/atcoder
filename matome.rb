@@ -67,7 +67,7 @@ m=a.max{ |x, y| x[1] <=> y[1] }
 B.sort_by(&:downcase)
 
 
-# xCy
+# ---xCy 組み合わせ（重複なし）---
 def c(x,y)
   a=1
   y.times do |i|
@@ -79,3 +79,15 @@ def c(x,y)
   end
   a/b
 end
+
+# ---2点の直線の方程式 xが解---
+(a,b),(c,d)
+x = (c*y + a*b - y*a - b*c) / (d-b) + a
+
+# ---2点の直線の方程式 yが解---
+(a,b),(c,d)
+y = (d-b) * (x-a) / (c-a)
+
+# ---プログラム終了---
+exit
+
